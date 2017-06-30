@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 app.get('/', function(req, res, next) {
-    res.send('汪凯 is sb');
+    res.redirect('http://weibo.com/u/2720114643');
 });
 
 app.listen(8089, function(req, res) {
